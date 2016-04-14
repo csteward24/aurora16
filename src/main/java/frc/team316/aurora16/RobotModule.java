@@ -1,21 +1,17 @@
 package frc.team316.aurora16;
 
-import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.RobotDrive;
-import edu.wpi.first.wpilibj.Victor;
 import jaci.openrio.toast.lib.log.Logger;
 import jaci.openrio.toast.lib.module.IterativeModule;
+import frc.team316.aurora16.Drivetrain;
+import edu.wpi.first.wpilibj.Joystick;
+
 
 public class RobotModule extends IterativeModule {
 
     public static Logger logger;
-    
-    Victor rearLeft = new Victor(2);
-    Victor rearRight = new Victor(1);
-    Victor frontLeft = new Victor(3);
-    Victor frontRight = new Victor(0);
-    RobotDrive driveMotors = new RobotDrive(frontLeft, rearLeft, frontRight, rearRight);
+    Drivetrain drivetrain = new Drivetrain();
     Joystick driveStick = new Joystick(1);
+    
 
     @Override
     public String getModuleName() {
@@ -39,6 +35,6 @@ public class RobotModule extends IterativeModule {
      */
     public void teleopPeriodic() {
         //driveMotors.arcadeDrive(driveStick.getRawAxis(1), driveStick.getRawAxis(0));
-    	driveMotors.arcadeDrive(1, .5);
+    	drivetrain.arcadeDrive(driveStick.getRawAxis(1), driveStick.getRawAxis(0));
     }
 }
