@@ -32,10 +32,11 @@ public class Drivetrain {
 	 * @param turn rotational movement
 	 */
 	public void arcadeDrive(double move, double turn) {
-		if (move < .2){
+		//deadband
+		if (move < .2 && move > -.2){
 			move = 0;
 		}
-		if (turn < .2){
+		if (turn < .2 && turn > -.2){
 			turn = 0;
 		}
 		driveMotors.arcadeDrive(move, turn);
