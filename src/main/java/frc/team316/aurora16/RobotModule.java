@@ -10,7 +10,7 @@ public class RobotModule extends IterativeModule {
 
     public static Logger logger;
     Drivetrain drivetrain = new Drivetrain();
-    Joystick driveStick = new Joystick(1);
+    Joystick driveStick = new Joystick(0);
     
 
     @Override
@@ -34,7 +34,6 @@ public class RobotModule extends IterativeModule {
      * This function is called periodically during operator control
      */
     public void teleopPeriodic() {
-        //driveMotors.arcadeDrive(driveStick.getRawAxis(1), driveStick.getRawAxis(0));
     	drivetrain.arcadeDrive(driveStick.getRawAxis(1), driveStick.getRawAxis(0));
     }
 }

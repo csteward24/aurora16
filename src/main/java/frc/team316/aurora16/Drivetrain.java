@@ -3,7 +3,7 @@ package frc.team316.aurora16;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.RobotDrive;
-import edu.wpi.first.wpilibj.Victor;
+import edu.wpi.first.wpilibj.Talon;
 
 /**
  * Drivetrain contains all the code related to driving the robot. <br>
@@ -13,10 +13,10 @@ import edu.wpi.first.wpilibj.Victor;
  */
 public class Drivetrain {
 	
-	Victor rearLeft = new Victor(2);
-    Victor rearRight = new Victor(1);
-    Victor frontLeft = new Victor(3);
-    Victor frontRight = new Victor(0);
+	Talon rearLeft = new Talon(2);
+    Talon rearRight = new Talon(1);
+    Talon frontLeft = new Talon(3);
+    Talon frontRight = new Talon(0);
     RobotDrive driveMotors = new RobotDrive(frontLeft, rearLeft, frontRight, rearRight);
     Joystick driveStick = new Joystick(1);
     
@@ -32,6 +32,12 @@ public class Drivetrain {
 	 * @param turn rotational movement
 	 */
 	public void arcadeDrive(double move, double turn) {
+		if (move < .2){
+			move = 0;
+		}
+		if (turn < .2){
+			turn = 0;
+		}
 		driveMotors.arcadeDrive(move, turn);
 	}
 }
