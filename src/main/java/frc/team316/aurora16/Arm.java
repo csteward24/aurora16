@@ -19,9 +19,23 @@ public class Arm {
 	DigitalInput bottomSwitch = new DigitalInput(1);
 	DigitalInput topSwitch = new DigitalInput(2);
 	AnalogInput pickupPot = new AnalogInput(1);
+	Boolean override = false;
+	
 	//constructor
 	Arm(){
 	}
+	
+	public void pickupUp(){
+		if (!topSwitch.get() || override){
+			pickupArm.set(1);
+		}
+	}
+	public void pickupDown(){
+		if (!bottomSwitch.get() || override){
+			pickupArm.set(-1);
+		}
+	}
+	
 	
 	
 }

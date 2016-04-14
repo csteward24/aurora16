@@ -10,7 +10,9 @@ public class RobotModule extends IterativeModule {
 
     public static Logger logger;
     Drivetrain drivetrain = new Drivetrain();
+    Arm arm = new Arm();
     Joystick driveStick = new Joystick(0);
+    
     
 
     @Override
@@ -35,5 +37,12 @@ public class RobotModule extends IterativeModule {
      */
     public void teleopPeriodic() {
     	drivetrain.arcadeDrive(driveStick.getRawAxis(1), driveStick.getRawAxis(0));
+    	if (driveStick.getRawButton(4)){
+    		arm.pickupDown();
+    	}
+    	if (driveStick.getRawButton(5)){
+    		arm.pickupUp();
+    	}
     }
+    
 }
