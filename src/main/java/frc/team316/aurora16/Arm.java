@@ -30,12 +30,19 @@ public class Arm {
 			pickupArm.set(1);
 		}
 	}
+	
 	public void pickupDown(){
 		if (!bottomSwitch.get() || override){
 			pickupArm.set(-1);
 		}
 	}
 	
+	public void stopPickup(){
+		pickupArm.set(0);
+	}
 	
+	public void setRoller(double speed){
+		roller.set(speed);
+	}
 	
 }

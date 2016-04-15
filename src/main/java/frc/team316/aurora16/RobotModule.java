@@ -12,9 +12,8 @@ public class RobotModule extends IterativeModule {
     Drivetrain drivetrain = new Drivetrain();
     Arm arm = new Arm();
     Joystick driveStick = new Joystick(0);
+    Joystick operatorStick = new Joystick(1);
     
-    
-
     @Override
     public String getModuleName() {
         return "aurora16";
@@ -37,12 +36,18 @@ public class RobotModule extends IterativeModule {
      */
     public void teleopPeriodic() {
     	drivetrain.arcadeDrive(driveStick.getRawAxis(1), driveStick.getRawAxis(0));
-    	if (driveStick.getRawButton(4)){
+    	if (driveStick.getRawButton(5)){
     		arm.pickupDown();
     	}
-    	if (driveStick.getRawButton(5)){
+    	if (driveStick.getRawButton(6)){
     		arm.pickupUp();
     	}
+    	if (!driveStick.getRawButton(5) && !driveStick.getRawButton(6)){
+    		arm.stopPickup();
+    	}
+    	
+    	arm.setRoller(driveStick.getRawAxis(5));
+  
     }
     
 }

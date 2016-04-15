@@ -1,81 +1,81 @@
 {
 	"Pre-Initialization":{
 		"Simulation":{
-			"GUI":354074233
+			"GUI":322173681
 		}
 	},
 	"RobotLoader":{
 		"aurora16":{
-			"prestart":25659,
-			"start":677402
+			"prestart":13929,
+			"start":222134
 		},
 		"Java":{
-			"Candidate":3581284,
-			"Parse":37547396,
+			"Candidate":4772601,
+			"Parse":34573501,
 			"Dependency":{
-				"aurora16":767209
+				"aurora16":1051292
 			},
 			"Module":{
 				"aurora16":{
-					"Construct":30021568
+					"Construct":64180858
 				}
 			}
 		},
-		"DevEnv":32237419,
+		"DevEnv":28623145,
 		"CoreJava":{
-			"Candidate":1267195,
-			"Init":3299,
-			"Parse":5865,
-			"Post":1466
+			"Candidate":906501,
+			"Init":1466,
+			"Parse":3666,
+			"Post":1833
 		}
 	},
 	"JavaScript":{
 		"Init":{
-			"Manager":6863089,
-			"Engine":337198579
+			"Manager":6188253,
+			"Engine":321560795
 		},
-		"Load":1998848,
-		"ModuleConfig":119865,
+		"Load":2539156,
+		"ModuleConfig":75145,
 		"LoadSystem":0
 	},
 	"Setup":{
-		"Crash":12560885,
-		"Configuration":10002669,
-		"Version":2975362,
-		"Delegate":6437514,
-		"ParseArgs":9608984,
-		"Misc":4835649,
-		"ThreadPool":4723116,
-		"WPILib":82317476,
-		"CommandBus":20977819,
-		"Logger":3401303,
-		"Security":12950905
+		"Crash":12846435,
+		"Configuration":8563557,
+		"Version":2967663,
+		"Delegate":3945644,
+		"ParseArgs":9545569,
+		"Misc":6269996,
+		"ThreadPool":2168931,
+		"WPILib":81952016,
+		"CommandBus":17795352,
+		"Logger":4271514,
+		"Security":11063857
 	},
 	"Patcher":{
 		"Simulation":{
-			"edu/wpi/first/wpilibj/hal/NotifierJNI.sim":475061,
-			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary$tResourceType.sim":988977,
-			"edu/wpi/first/wpilibj/hal/PWMJNI.sim":2618699,
-			"edu/wpi/first/wpilibj/hal/RelayJNI.sim":435472,
-			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary$tTargetClass.sim":850417,
-			"edu/wpi/first/wpilibj/hal/CanTalonJNI.sim":983112,
-			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary$tModuleType.sim":693897,
-			"edu/wpi/first/wpilibj/hal/JNIWrapper.sim":1321812,
-			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary.sim":887440,
-			"edu/wpi/first/wpilibj/hal/CompressorJNI.sim":634148,
-			"edu/wpi/first/wpilibj/hal/InterruptJNI.sim":799466,
-			"edu/wpi/first/wpilibj/hal/AccelerometerJNI.sim":743383,
-			"edu/wpi/first/wpilibj/hal/InterruptJNI$InterruptJNIHandlerFunction.sim":741183,
-			"edu/wpi/first/wpilibj/hal/AnalogJNI.sim":942057,
-			"edu/wpi/first/wpilibj/hal/SolenoidJNI.sim":572565,
-			"edu/wpi/first/wpilibj/hal/HALUtil.sim":674103,
-			"edu/wpi/first/wpilibj/hal/DIOJNI.sim":685466,
-			"edu/wpi/first/wpilibj/hal/DigitalGlitchFilterJNI.sim":673736,
-			"edu/wpi/first/wpilibj/RobotBase.sim":939492,
-			"edu/wpi/first/wpilibj/hal/PDPJNI.sim":832822,
-			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary$tInstances.sim":761344,
-			"edu/wpi/first/wpilibj/hal/PowerJNI.sim":745581
+			"edu/wpi/first/wpilibj/hal/NotifierJNI.sim":445370,
+			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary$tResourceType.sim":549838,
+			"edu/wpi/first/wpilibj/hal/PWMJNI.sim":3756499,
+			"edu/wpi/first/wpilibj/hal/RelayJNI.sim":833923,
+			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary$tTargetClass.sim":549106,
+			"edu/wpi/first/wpilibj/hal/CanTalonJNI.sim":830256,
+			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary$tModuleType.sim":591260,
+			"edu/wpi/first/wpilibj/hal/JNIWrapper.sim":921163,
+			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary.sim":695363,
+			"edu/wpi/first/wpilibj/hal/CompressorJNI.sim":1072919,
+			"edu/wpi/first/wpilibj/hal/InterruptJNI.sim":620951,
+			"edu/wpi/first/wpilibj/hal/AccelerometerJNI.sim":517215,
+			"edu/wpi/first/wpilibj/hal/InterruptJNI$InterruptJNIHandlerFunction.sim":462965,
+			"edu/wpi/first/wpilibj/hal/AnalogJNI.sim":574031,
+			"edu/wpi/first/wpilibj/hal/SolenoidJNI.sim":731653,
+			"edu/wpi/first/wpilibj/hal/HALUtil.sim":548739,
+			"edu/wpi/first/wpilibj/hal/DIOJNI.sim":498521,
+			"edu/wpi/first/wpilibj/hal/DigitalGlitchFilterJNI.sim":436939,
+			"edu/wpi/first/wpilibj/RobotBase.sim":1337941,
+			"edu/wpi/first/wpilibj/hal/PDPJNI.sim":592360,
+			"edu/wpi/first/wpilibj/communication/FRCNetworkCommunicationsLibrary$tInstances.sim":910900,
+			"edu/wpi/first/wpilibj/hal/PowerJNI.sim":888906
 		},
-		"Identify":641478
+		"Identify":636714
 	}
 }
