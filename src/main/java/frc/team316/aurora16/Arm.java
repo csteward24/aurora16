@@ -14,7 +14,7 @@ import edu.wpi.first.wpilibj.AnalogInput;
  */
 public class Arm {
 	
-	Victor pickupArm = new Victor(4);
+	private Victor pickupArm = new Victor(4);
 	CANTalon roller = new CANTalon(3);
 	DigitalInput bottomSwitch = new DigitalInput(1);
 	DigitalInput topSwitch = new DigitalInput(2);
@@ -44,5 +44,7 @@ public class Arm {
 	public void setRoller(double speed){
 		roller.set(speed);
 	}
-	
+	//public setOverride(){
+		
+	//}
 }
