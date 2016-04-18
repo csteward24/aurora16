@@ -16,13 +16,19 @@ import jaci.openrio.toast.core.Environment;
  */
 public class LunaGyro extends ADXRS450_Gyro {
 	
+	
 	ADXRS450_Gyro gyro = new ADXRS450_Gyro();
+	
+	
 	
 	/**
 	 * 
 	 */
 	public LunaGyro() {
 		// TODO Auto-generated constructor stub
+		if (!Environment.isSimulation()){
+			gyro = new ADXRS450_Gyro();
+		}
 	}
 
 	/**
@@ -31,6 +37,9 @@ public class LunaGyro extends ADXRS450_Gyro {
 	public LunaGyro(Port port) {
 		super(port);
 		// TODO Auto-generated constructor stub
+		if (!Environment.isSimulation()){
+			gyro = new ADXRS450_Gyro(port);
+		}
 	}
 	/**
 	 * {@inheritDoc}

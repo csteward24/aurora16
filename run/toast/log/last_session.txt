@@ -4,70 +4,17 @@
 ||   3   |  / / / /_/ / /_/ (__  ) /_    
 \\_______/ /_/  \____/\__,_/____/\__/    
 
-[17/04/16-11:05:28] [Toast] [Bootstrap] [INFO] Toast Version: 2.4.14
-[17/04/16-11:05:28] [Toast] [Bootstrap] [INFO] Toast Commit Hash: 2022e41
-[17/04/16-11:05:28] [Toast] [Core-Initialization] [INFO] Toast Started with Run Arguments: [-sim, --search, --no-color, -ide, ECLIPSE]
-[17/04/16-11:05:28] [Toast] [Pre-Initialization] [INFO] Slicing Loaf...
-[17/04/16-11:05:28] [Toast] [Initialization] [INFO] Nuking Toast...
-[17/04/16-11:05:28] [Toast] [Thread-7] [INFO] Toast Driver Station Networking Bonjour Tunnel successfully configured!
+[17/04/16-11:05:52] [Toast] [Bootstrap] [INFO] Toast Version: 2.4.14
+[17/04/16-11:05:52] [Toast] [Bootstrap] [INFO] Toast Commit Hash: 2022e41
+[17/04/16-11:05:52] [Toast] [Core-Initialization] [INFO] Toast Started with Run Arguments: [-sim, --search, --no-color, -ide, ECLIPSE]
+[17/04/16-11:05:52] [Toast] [Pre-Initialization] [INFO] Slicing Loaf...
+[17/04/16-11:05:52] [Toast] [Initialization] [INFO] Nuking Toast...
+[17/04/16-11:05:53] [Toast] [Thread-7] [INFO] Toast Driver Station Networking Bonjour Tunnel successfully configured!
 platform: /Windows/amd64/
-[17/04/16-11:05:28] [Toast] [Pre-Start] [INFO] Buttering Bread...
-**** CRASH LOG ****
-Your robot has crashed. Following is a crash log and more details.
-This log has been saved to: C:\Users\Christian\Documents\toastprojects\aurora16\run\toast\crash\crash-2016-04-17_11-05-28.txt
-This log will also be duplicated to USB devices, with the filename: crash-2016-04-17_11-05-28.txt
- ________     __  ____       ____  __
-((       )   / / / / /_     / __ \/ /_
-||  x x  |  / / / / __ \   / / / / __ \
-||   ^   | / /_/ / / / /  / /_/ / / / /
-\\_______/ \____/_/ /_/   \____/_/ /_/
-
-java.lang.UnsatisfiedLinkError: edu.wpi.first.wpilibj.hal.SPIJNI.spiInitialize(B)V
-	at edu.wpi.first.wpilibj.hal.SPIJNI.spiInitialize(Native Method)
-	at edu.wpi.first.wpilibj.SPI.<init>(SPI.java:57)
-	at edu.wpi.first.wpilibj.ADXRS450_Gyro.<init>(ADXRS450_Gyro.java:62)
-	at edu.wpi.first.wpilibj.ADXRS450_Gyro.<init>(ADXRS450_Gyro.java:53)
-	at frc.team316.aurora16.LunaGyro.<init>(LunaGyro.java:24)
-	at frc.team316.aurora16.Drivetrain.<init>(Drivetrain.java:24)
-	at frc.team316.aurora16.RobotModule.<init>(RobotModule.java:12)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at java.lang.Class.newInstance(Unknown Source)
-	at jaci.openrio.toast.core.loader.module.ModuleContainer.construct(ModuleContainer.java:54)
-	at jaci.openrio.toast.core.loader.RobotLoader.constructModules(RobotLoader.java:397)
-	at jaci.openrio.toast.core.loader.RobotLoader.init(RobotLoader.java:82)
-	at jaci.openrio.toast.core.Toast.startCompetition(Toast.java:79)
-	at jaci.openrio.toast.core.ToastBootstrap.fakeRobotBase(ToastBootstrap.java:304)
-	at jaci.openrio.toast.core.ToastBootstrap.main(ToastBootstrap.java:267)
-
-Crash Information: 
-	Toast: 
-		Toast Version: 2.4.14
-		Loaded Modules:
-			{undefined}@{undefined}
-
-	Environment: 
-		    Toast: 2.4.14
-		      Git: 2022e41 (2022e4195a90b9630403ab119a953bb91d6dcefb)
-		     Type: Simulation
-		      FMS: false
-		       OS: Windows 8.1 6.3 (amd64)
-		     Java: 1.8.0_45 (Oracle Corporation)
-		Java Path: C:\Program Files\Java\jre1.8.0_45
-		  JScript: Supported (Nashorn)
-
-	Modules: 
-		{undefined}
-			Name: {undefined}
-			Version: {undefined}
-			File: null
-			Bypass Class: null
-			Core Module Class: null
-			Owned Packages: 
-				frc.team316.aurora16
-		jaci.openrio.toast.core.loader.module.ModuleContainer could not be logged. (null)
-
-
-*******************
+[17/04/16-11:05:53] [Toast] [Pre-Start] [INFO] Buttering Bread...
+[17/04/16-11:05:53] [Toast|Loader] [Pre-Start] [INFO] Module Loaded: aurora16@0.0.1
+[17/04/16-11:05:53] [Toast] [Start] [INFO] Fabricating Sandwich...
+[17/04/16-11:05:53] [Toast] [Start] [INFO] Verdict: Like a buttery heaven
+[17/04/16-11:05:53] [aurora16] [Start] [INFO] Hello World
+[17/04/16-11:05:53] [Toast] [Main] [INFO] Total Initiation Time: 0.73 seconds
+[17/04/16-11:05:57] [Toast] [AWT-EventQueue-0] [INFO] Robot Shutting Down...
