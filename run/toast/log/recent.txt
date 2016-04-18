@@ -4,16 +4,17 @@
 ||   3   |  / / / /_/ / /_/ (__  ) /_    
 \\_______/ /_/  \____/\__,_/____/\__/    
 
-[14/04/16-08:38:17] [Toast] [Bootstrap] [INFO] Toast Version: 2.4.14
-[14/04/16-08:38:17] [Toast] [Bootstrap] [INFO] Toast Commit Hash: 2022e41
-[14/04/16-08:38:17] [Toast] [Core-Initialization] [INFO] Toast Started with Run Arguments: [-sim, --search, --no-color, -ide, ECLIPSE]
-[14/04/16-08:38:17] [Toast] [Pre-Initialization] [INFO] Slicing Loaf...
-[14/04/16-08:38:17] [Toast] [Initialization] [INFO] Nuking Toast...
+[17/04/16-11:05:52] [Toast] [Bootstrap] [INFO] Toast Version: 2.4.14
+[17/04/16-11:05:52] [Toast] [Bootstrap] [INFO] Toast Commit Hash: 2022e41
+[17/04/16-11:05:52] [Toast] [Core-Initialization] [INFO] Toast Started with Run Arguments: [-sim, --search, --no-color, -ide, ECLIPSE]
+[17/04/16-11:05:52] [Toast] [Pre-Initialization] [INFO] Slicing Loaf...
+[17/04/16-11:05:52] [Toast] [Initialization] [INFO] Nuking Toast...
+[17/04/16-11:05:53] [Toast] [Thread-7] [INFO] Toast Driver Station Networking Bonjour Tunnel successfully configured!
 platform: /Windows/amd64/
-[14/04/16-08:38:17] [Toast] [Thread-7] [INFO] Toast Driver Station Networking Bonjour Tunnel successfully configured!
-[14/04/16-08:38:17] [Toast] [Pre-Start] [INFO] Buttering Bread...
-[14/04/16-08:38:17] [Toast|Loader] [Pre-Start] [INFO] Module Loaded: aurora16@0.0.1
-[14/04/16-08:38:17] [Toast] [Start] [INFO] Fabricating Sandwich...
-[14/04/16-08:38:17] [Toast] [Start] [INFO] Verdict: Hot, Hot, HOT!!
-[14/04/16-08:38:17] [aurora16] [Start] [INFO] Hello World
-[14/04/16-08:38:17] [Toast] [Main] [INFO] Total Initiation Time: 0.723 seconds
+[17/04/16-11:05:53] [Toast] [Pre-Start] [INFO] Buttering Bread...
+[17/04/16-11:05:53] [Toast|Loader] [Pre-Start] [INFO] Module Loaded: aurora16@0.0.1
+[17/04/16-11:05:53] [Toast] [Start] [INFO] Fabricating Sandwich...
+[17/04/16-11:05:53] [Toast] [Start] [INFO] Verdict: Like a buttery heaven
+[17/04/16-11:05:53] [aurora16] [Start] [INFO] Hello World
+[17/04/16-11:05:53] [Toast] [Main] [INFO] Total Initiation Time: 0.73 seconds
+[17/04/16-11:05:57] [Toast] [AWT-EventQueue-0] [INFO] Robot Shutting Down...

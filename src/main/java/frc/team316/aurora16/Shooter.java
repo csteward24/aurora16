@@ -22,6 +22,7 @@ public class Shooter {
 	
 	//constructor
 	public void shooter() {
+	
 	}
 	
 	

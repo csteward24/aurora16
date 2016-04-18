@@ -1,21 +1,7 @@
- ________    ______                 __   
-((       )  /_  __/___  ____ ______/ /_  
-||  o o  |   / / / __ \/ __ `/ ___/ __/  
-||   3   |  / / / /_/ / /_/ (__  ) /_    
-\\_______/ /_/  \____/\__,_/____/\__/    
-
-[17/04/16-11:05:28] [Toast] [Bootstrap] [INFO] Toast Version: 2.4.14
-[17/04/16-11:05:28] [Toast] [Bootstrap] [INFO] Toast Commit Hash: 2022e41
-[17/04/16-11:05:28] [Toast] [Core-Initialization] [INFO] Toast Started with Run Arguments: [-sim, --search, --no-color, -ide, ECLIPSE]
-[17/04/16-11:05:28] [Toast] [Pre-Initialization] [INFO] Slicing Loaf...
-[17/04/16-11:05:28] [Toast] [Initialization] [INFO] Nuking Toast...
-[17/04/16-11:05:28] [Toast] [Thread-7] [INFO] Toast Driver Station Networking Bonjour Tunnel successfully configured!
-platform: /Windows/amd64/
-[17/04/16-11:05:28] [Toast] [Pre-Start] [INFO] Buttering Bread...
 **** CRASH LOG ****
 Your robot has crashed. Following is a crash log and more details.
-This log has been saved to: C:\Users\Christian\Documents\toastprojects\aurora16\run\toast\crash\crash-2016-04-17_11-05-28.txt
-This log will also be duplicated to USB devices, with the filename: crash-2016-04-17_11-05-28.txt
+This log has been saved to: C:\Users\Christian\Documents\toastprojects\aurora16\run\toast\crash\crash-2016-04-17_11-04-14.txt
+This log will also be duplicated to USB devices, with the filename: crash-2016-04-17_11-04-14.txt
  ________     __  ____       ____  __
 ((       )   / / / / /_     / __ \/ /_
 ||  x x  |  / / / / __ \   / / / / __ \
